@@ -1,0 +1,165 @@
+/* ---------------- */
+/* BELOW 1344px (Smaller desktops) */
+/* ---------------- */
+@media (max-width: 84em) {
+  html {
+    font-size: 56.25%;
+  }
+  .contact-orange {
+    /* width: 100%; */
+  }
+}
+
+/* ---------------- */
+/* BELOW 1200px (Landscape Tablets) */
+/* ---------------- */
+@media (max-width: 75em) {
+  .heading-primary {
+    font-size: 9.8rem;
+  }
+
+  .container {
+    max-width: 95rem;
+  }
+  .about-me-text-paragraphs p {
+    font-size: 1.8rem;
+  }
+  .about-me-purple {
+    display: inline-block;
+    height: 2rem;
+    width: 28%;
+    left: 65%;
+    transform: translateY(4rem);
+  }
+  .my-work-blue {
+    display: inline-block;
+    height: 2rem;
+    width: 29%;
+    /* left: 49%; */
+    transform: translateY(4rem);
+  }
+  .contact-orange {
+    width: 66%;
+  }
+}
+
+/* ---------------- */
+/* BELOW 944px (Tablets) */
+/* ---------------- */
+
+@media (max-width: 59em) {
+  html {
+    font-size: 50%;
+  }
+  .container {
+    max-width: 80rem;
+  }
+  .heading-secondary {
+    font-size: 6.2rem;
+  }
+  .expertise-item {
+    padding: 3.2rem 1.6rem;
+  }
+  .section-end-figure {
+    height: 10rem;
+    transform: scale(0.5);
+  }
+  .about-me-purple {
+    display: inline-block;
+    height: 2rem;
+    width: 31%;
+    left: 67%;
+    transform: translateY(3rem);
+  }
+  .my-work-blue {
+    display: inline-block;
+    height: 2rem;
+    width: 29%;
+    /* left: 49%; */
+    transform: translateY(3rem);
+  }
+  .contact-orange {
+    transform: translateY(3rem);
+    width: 66%;
+  }
+  .section-my-work .grid {
+    gap: 4.8rem;
+  }
+  .section-my-work .paragraph {
+    font-size: 1.8rem;
+  }
+  .project {
+    padding: 2.4rem;
+  }
+  .grid--4-cols {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 2.4rem;
+    column-gap: 4.8rem;
+  }
+  .footer-container {
+    gap: 2.4rem;
+  }
+}
+
+/* ---------------- */
+/* BELOW 704px (Smaller Tablets) */
+/* ---------------- */
+
+@media (max-width: 44em) {
+  .container {
+    max-width: 65rem;
+  }
+  .heading-primary {
+    font-size: 7.4rem;
+  }
+  .subheading {
+    font-size: 2.4rem;
+  }
+
+  .grid--2-cols {
+    grid-template-columns: repeat(1, 1fr);
+    row-gap: 2.4rem;
+  }
+  .expertise-item:nth-child(2),
+  .expertise-item:nth-child(3) {
+    width: 60%;
+    height: 100%;
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+  }
+
+  .expertise-item:nth-child(2),
+  .expertise-item:nth-child(3) {
+    border: 3px solid #fff;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  .paragraph {
+    font-size: 1.8rem;
+  }
+  .expertise-orange {
+    transform: translateY(0rem);
+  }
+  .block--purple {
+    transform: translateY(0rem);
+  }
+  .about-me-purple {
+    width: 15.5%;
+    left: 35%;
+  }
+  .section-about-me .grid {
+    gap: 4.8rem;
+  }
+  .block-header .heading-secondary {
+    text-align: center;
+  }
+}
+
+/* ---------------- */
+/* BELOW 544px (Phone) */
+/* ---------------- */
+
+@media (max-width: 34em) {
+}

@@ -1,0 +1,158 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+}
+
+body {
+  background-color: #080e14;
+}
+
+section,
+footer {
+  background-color: #080e14;
+  padding: 17.6rem 0;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* ------------------------ */
+/* CONTAINER */
+/* ------------------------ */
+.container {
+  max-width: 120rem;
+  margin: 0 auto;
+  padding: 0 1.6rem;
+}
+
+.container--expertise {
+  max-width: 100rem;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+/* ------------------------ */
+/* HEADINGS */
+/* ------------------------ */
+.heading-primary {
+  text-align: center;
+  font-size: 12.6rem;
+  text-transform: uppercase;
+  text-shadow: 0 0 30px rgba(0, 0, 0, 1);
+  letter-spacing: 1.5px;
+  font-weight: 700;
+}
+
+.heading-secondary {
+  font-size: 7.4rem;
+  text-align: center;
+  margin-bottom: 6.4rem;
+  /* margin-bottom: 8rem; */
+}
+
+.subheading {
+  font-weight: 700;
+  font-size: 2.4rem;
+}
+
+.subheading-primary {
+  letter-spacing: 1.5px;
+  text-align: center;
+  display: block;
+  text-shadow: 0 0 30px rgba(0, 0, 0, 0.8);
+}
+
+.small-heading {
+  font-size: 1.8rem;
+  font-weight: bold;
+  display: inline-block;
+  /* letter-spacing: -0.75px; */
+  margin-bottom: 1.2rem;
+  display: block;
+}
+
+.small-subheading {
+  display: block;
+  font-size: 1.4rem;
+  letter-spacing: -0.75px;
+  font-weight: 600;
+  color: #2c49d8;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+}
+
+/* ------------------------ */
+/* MARGINS */
+/* ------------------------ */
+.margin-bottom--sm {
+  margin-bottom: 2.4rem !important;
+}
+.margin-bottom--md {
+  margin-bottom: 4.8rem !important;
+}
+.margin-bottom--lg {
+  margin-bottom: 6.4rem !important;
+}
+.margin-bottom--vlg {
+  margin-bottom: 9.6rem !important;
+}
+.margin-right--sm {
+  margin-right: 1.6rem !important;
+}
+
+/* ------------------------ */
+/* GRID */
+/* ------------------------ */
+.grid {
+  display: grid;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid-my-work {
+  grid-template-columns: 40fr 60fr;
+}
+
+/* ------------------------ */
+/* PARAGRAPH */
+/* ------------------------ */
+.paragraph {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
+/* ------------------------ */
+/* FIGURES */
+/* ------------------------ */
+.section-end-figure {
+  width: 100%;
+  height: 8rem;
+  background: url("../assets/horizontal-cubes.png");
+  background-color: #080e14;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* ------------------------ */
+/* FOOTER */
+/* ------------------------ */
