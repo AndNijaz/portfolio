@@ -14,23 +14,48 @@
       rel="stylesheet"
     />
     <title>Nijaz Andelic - Charismatic, Hardworking, Dedicated</title>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   </head>
   <body>
     <main>
       <section class="section-hero">
         <div class="container">
-          <h1 class="heading-primary margin-bottom--sm">Nijaz Andelić</h1>
-          <span class="subheading subheading-primary"
+          <h1 class="heading-primary margin-bottom--sm" id="heading-primary">
+            Nijaz Andelić
+          </h1>
+          <!-- <span class="subheading subheading-primary" id="subheading"
             >SOFTWARE ENGINEER & FRONTEND DEVELOPER</span
-          >
+          > -->
+          <div id="typed-strings">
+            <!-- <p>Typed.js is a <strong>JavaScript</strong> library.</p> -->
+            <!-- <p>It <em>types</em> out sentences.</p> -->
+            <p>SOFTWARE ENGINEER & FRONTEND DEVELOPER</p>
+            <p>REACT & REACT NATIVE</p>
+            <p>JAVASCRIPT & TYPESCRIPT</p>
+            <p>HTML & CSS & PHP</p>
+            <p>DATABASES & MYSQL</p>
+          </div>
+          <span id="typed" class="subheading subheading-primary"></span>
         </div>
-        <a href="#my-expertise" class="hero-btn">&DownArrow;</a>
+        <!-- <a href="#my-expertise" class="hero-btn">&DownArrow;</a> -->
+
+        <span class="scroll-btn">
+          <a href="#my-expertise">
+            <span class="mouse">
+              <span> </span>
+            </span>
+          </a>
+        </span>
+
         <div class="background-mask" role="img"></div>
       </section>
+
       <section class="section-expertise" id="my-expertise">
         <div class="container margin-bottom--md">
           <h2 class="heading-secondary">My Expertise</h2>
         </div>
+
         <div class="container container--expertise">
           <div class="grid grid--2-cols">
             <div class="expertise-item">
@@ -39,7 +64,10 @@
                 <span class="header-expertise">
                   <span class="subheading">Frontend Dev</span>
                   <br />
-                  <span class="subheading">React, Javascript</span>
+                  <span class="subheading"
+                    >React, Javascript<br />
+                    & More</span
+                  >
                   <span
                     class="block block--blue expertise-blue"
                     role="img"
@@ -161,33 +189,36 @@
               Landing page for a company engaged in software development,
               specifically software service sales.
             </p>
-            <a href="https://woldev.netlify.app" class="btn">See Woldev</a>
+            <a href="https://github.com/AndNijaz/BloodDonation-v1.1" class="btn"
+              >See Dono</a
+            >
           </div>
-          <a href="" class="my-work-picture">
-            <img src="./assets/my-work-woldev.png" />
+          <a
+            href="https://github.com/AndNijaz/BloodDonation-v1.1"
+            class="my-work-picture"
+          >
+            <img src="./assets/my-work-dono.png" alt="Dono" />
           </a>
         </div>
         <div class="container grid grid--3-cols grid-projects">
           <a
-            href="https://github.com/AndNijaz/senbonzakura-food"
+            href="https://github.com/AndNijaz/React-Popcorn.git"
             class="project"
           >
-            <img src="assets/my-work-senbonzakura.png" />
+            <img src="assets/my-work-react-popcorn.png" />
           </a>
 
-          <a href="https://wincome.webflow.io" class="project"
-            ><img src="assets/my-work-wincome.png"
+          <a href="https://github.com/AndNijaz/woldev.git" class="project"
+            ><img src="assets/my-work-woldev.png"
           /></a>
-          <a href="https://nijazz.webflow.io" class="project"
-            ><img src="assets/my-work-nijazz.png"
+          <a href="https://github.com/AndNijaz/Checkify-AG.git" class="project"
+            ><img src="assets/my-work-checkify.png"
           /></a>
-          <a
-            href="https://omnifood-course-project-nijaz.netlify.app"
-            class="project"
-            ><img src="assets/my-work-omnifood.png"
+          <a href="https://github.com/AndNijaz/Inwousluga.git" class="project"
+            ><img src="assets/my-work-inwousluga.png"
           /></a>
-          <a href="https://github.com/AndNijaz/e-wallet" class="project">
-            <img src="assets/my-work-kakashi-e-wallet.png" />
+          <a href="https://www.seniorlab.ba/" class="project">
+            <img src="assets/my-work-seniorlab.png" />
           </a>
           <a href="https://airshop-761533.webflow.io" class="project"
             ><img src="assets/my-work-airshop.png"
@@ -266,7 +297,7 @@
               alt="Customer 1"
               class="testimonial-picture margin-bottom--sm"
             />
-            <span class="small-heading">Befin Fakić</span>
+            <span class="small-heading">Berin Fakić</span>
             <span class="small-subheading">Bestfriend</span>
             <p class="paragraph">
               I have known Nijaz for 5 years now. He is extremely dedicated and
@@ -386,5 +417,6 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+    <script src="script.js"></script>
   </body>
 </html>
