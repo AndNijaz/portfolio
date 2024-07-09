@@ -13,6 +13,8 @@ html {
 
 body {
   background-color: #080e14;
+  position: relative;
+  overflow-x: hidden;
 }
 
 section,
@@ -25,6 +27,8 @@ a {
   color: #fff;
   text-decoration: none;
   display: inline-block;
+  position: relative;
+  z-index: 10;
 }
 
 /* ------------------------ */
@@ -66,6 +70,16 @@ a {
 .subheading {
   font-weight: 700;
   font-size: 2.4rem;
+}
+
+.subheading--rose {
+  color: rgba(223, 5, 139, 1);
+}
+.subheading--orange {
+  color: rgba(255, 107, 43, 1);
+}
+.subheading--upper {
+  text-transform: uppercase;
 }
 
 .subheading-primary {
@@ -160,6 +174,9 @@ a {
   font-size: 1.6rem;
   line-height: 1.6;
 }
+.big-paragraph {
+  font-size: 2.4rem;
+}
 
 /* ------------------------ */
 /* FIGURES */
@@ -215,5 +232,8 @@ a {
 }
 
 /* ------------------------ */
-/* FOOTER */
+/* WIDTH */
 /* ------------------------ */
+.width--80 {
+  max-width: 80rem !important;
+}
