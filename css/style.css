@@ -547,7 +547,8 @@
 .section-about-me-page {
   position: relative;
   overflow-x: hidden;
-  overflow-y: visible;
+  overflow-y: hidden;
+
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -638,6 +639,10 @@
   height: 55rem;
 }
 
+.section-special .container {
+  text-align: center;
+}
+
 /* ------------------------ */
 /* MISTAKES SECTION */
 /* ------------------------ */
@@ -649,6 +654,7 @@
 .section-mistakes-grid img {
   width: 100%;
   box-shadow: 0 0 10px 5px rgba(255, 107, 43, 0.5);
+  align-self: center;
 }
 
 .text-wrapper {
@@ -667,4 +673,57 @@
 
 .section-doctor-grid img {
   width: 100%;
+  align-self: center;
+}
+
+/* ------------------------ */
+/* SPORT SECTION */
+/* ------------------------ */
+.section-sport {
+  position: relative;
+}
+
+.section-sport-grid {
+  grid-template-columns: 1fr 2fr;
+  gap: 6.4rem;
+}
+
+.section-sport h2 {
+  align-self: center;
+  z-index: 1;
+}
+
+.orange-circle--2 {
+  /* top: -10%; */
+  width: 55rem;
+  height: 55rem;
+  left: -25%;
+  z-index: 0;
+}
+
+.rose-circle--2 {
+  width: 55rem;
+  height: 55rem;
+  /* top: 5%; */
+  bottom: 5%;
+  right: -20%;
+  z-index: 0;
+}
+
+.section-leader-grid {
+  grid-template-columns: 2fr 1fr;
+  gap: 6.4rem;
+}
+
+.section-leader-grid img {
+  width: 100%;
+}
+
+.section-leader .paragraph,
+.section-thank-you .paragraph {
+  font-size: 4.4rem;
+}
+
+.section-leader .subheading {
+  font-size: 4.4rem;
 }
