@@ -28,3 +28,7 @@ document.querySelectorAll(".testimonial-content").forEach((testimonial) => {
   const moreText = testimonial.querySelector(".more-text");
   if (moreText) moreText.style.display = "none";
 });
+
+// ----------
+// Lazy loading
+// ----------
