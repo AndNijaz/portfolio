@@ -72,7 +72,7 @@ The portfolio is designed for:
 ![Homepage](img/homepage.png)
 
 ### Features
-![Features](img/features.png)
+![Features](img/featured.png)
 
 ### Project Showcase
 ![Project Showcase](img/project-showcase.png)
